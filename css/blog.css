@@ -1,0 +1,277 @@
+	
+
+:root{
+	    --pcol:rgba( 239, 217, 0,1);
+	    --scol:rgba(  235, 72, 1,1);
+	    --slight:rgba( 249, 105, 42,1);
+	  --plight:rgba( 234, 218, 50,1);
+	  --prcol:rgba(15,16, 35, 1);
+	  --srcol:rgba(18, 19, 78, 1);
+	     --dbrown:rgba(173, 22, 22, 1);
+	--cursive: 'Dancing Script', cursive;
+	    --bitter: 'Bitter', serif;
+	    --para: 'Chilanka', cursive;
+	    --robot:'Roboto', sans-serif;
+	    --meron:rgba( 71, 3, 22 ,1);
+	}
+#blog{
+	background-image: url(../image/blog1.jpg);
+		
+background-position: bottom;
+		
+background-size: cover;
+		
+background-repeat: repeat;
+		
+background-attachment: scroll;
+
+	
+animation: animatedBackground 40s linear infinite;
+
+
+ 
+ 
+ -webkit-animation: slide 20s linear infinite;
+
+}
+
+
+
+
+@-webkit-keyframes slide {
+ 
+   from { background-position: 10 10; 
+}
+   
+ to { 
+background-position: -400px 0; 
+}
+}
+
+#blog .blbg{
+	background-color: rgba(0,0,0,.6);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#blog  .bhead h1{
+	color: white;
+	font-family: var(--bitter);
+	font-size: 30px;
+	
+
+	letter-spacing: 1px;
+}
+#blog  .bhead p{
+	color: white;
+	font-family: var(--para);
+	font-size: 15px;
+	
+	
+	letter-spacing: 1px;
+}
+#blog  .sbut{
+	background-color: var(--scol);
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 0px;
+	border: 2px solid rgba(255,255,255,.6);
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: 800;
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	
+
+}
+#blog a{
+    text-align:left!important;
+}
+#blog  .sbut:hover
+{
+
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.5);	
+}
+
+#brateing{
+	background-image: url(../image/fff.jpg);
+	background-position: center;
+		
+background-size: cover;
+		
+background-repeat: no-repeat;
+		
+background-attachment: fixed;
+}
+#brateing .brbg{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: rgba(255,255,255,.8);
+}
+#brateing .rtimg img{
+	width: 80%;
+	display: block;
+	border:3px solid white;
+	box-shadow:1px 1px 2px 2px rgba(0,0,0,0.2);
+	margin: auto;
+	padding: 10px;
+}
+
+#brateing .rhead h1{
+	font-family: var(--bitter);
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: var(--prcol);
+	text-transform:uppercase;
+	
+	font-weight: 600;
+}
+.rhead h2{
+	
+	font-size: 18px;
+	color: black;
+	margin-top:10px;
+	letter-spacing: 1px;
+	font-weight:800;
+	text-transform:uppercase;
+	font-family:var(--para);
+}
+.rhead h2 span{
+	font-size: 15px;
+	color: rgba(0,0,0,.6);
+	letter-spacing: 1px;
+	
+	font-family: var(--bitter);
+}
+
+.rhead h3{
+	font-family: var(--cursive);
+	font-size: 18px;
+	color: black;
+	letter-spacing:1px;
+	
+}
+
+.rhead h3 span{
+	font-size: 18px;
+	color: rgba(0,0,0,.6);
+	letter-spacing: 1px;
+}
+.bgbor{
+	padding: 6px;
+	margin: 5px; 
+}
+.space{
+	margin: 10px;
+	border:1px solid rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.05);
+	padding:20px 10px;
+}
+#brateing .rhead p{
+	font-family: var(--robot);
+	font-size: 13px;
+	text-align: justify;
+	text-transform: capitalize;	
+	margin-top: 10px;
+}
+#brateing .rateline{
+	width: 50px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+#brateing .brline{
+	width: 50px;
+	height: 3px;
+	background-color: var(--pcol);
+
+}
+#brateing .shead h1{
+		font-family: var(--bitter);
+	font-size: 20px;
+	color: var(--pcol);
+	font-weight: 600;
+}
+#brateing  .sline{
+	width: 50px;
+	height: 3px;
+	background-color: var(--pcol);
+}
+#brateing  .socicon h2{
+   font-size: 20px;
+}
+#brateing   a{
+   text-decoration: none;
+   color: var(--darkblue);
+   font-size: 15px;
+   
+   font-family: var(--para);
+}
+#brateing .iconflexitem i:hover{
+		
+		box-shadow: 1px 1px 2px 2px rgba(0,0,0,.2);
+				
+	}
+#brateing  .fa-instagram{
+   color: violet;
+}
+#brateing  .fa-facebook{
+   color: blue;
+}
+ #brateing .fa-whatsapp{
+   color: green;
+}
+#brateing  .fa-youtube-play{
+   color: red;
+}
+#brateing  .fa-phone{
+   color: black;
+}
+
+#brateing  .fa{
+   font-size: 12px;
+   margin-right: 10px;
+   box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,.2);
+   padding: 8px;
+  border-radius: 50%;
+}
+.stbut{
+	
+	border-bottom: 2px solid var(--scol);
+	border-top:0px solid red;
+	border-right:0px solid red;
+	border-left:0px solid red;
+	
+	color: var(--scol);
+	font-family: var(--robot);
+	padding: 5px 10px;
+	display: block;
+	margin: auto;
+	letter-spacing: 2px;
+	text-align:left;
+	font-weight:800;
+
+font-family:var(--para);
+
+	font-weight: 600;
+
+}
+.stbut:hover{
+	text-decoration-color:var(--pcol);
+	
+}
+.socflex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.socflexitem{
+	width: 200px;
+
+}
+ 
+.iconflex{
+	display: flex;
+	flex-wrap: wrap;
+
+}

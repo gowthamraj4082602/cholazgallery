@@ -1,0 +1,884 @@
+:root{
+    --pcol:rgba( 239, 217, 0,1);
+    --scol:rgba(  235, 72, 1,1);
+    --slight:rgba( 249, 105, 42,1);
+  --plight:rgba( 234, 218, 50,1);
+      
+--cursive: 'Dancing Script', cursive;
+    --bitter: 'Bitter', serif;
+--prcol:rgba(15,16, 35, 1);
+    --para: 'Chilanka', cursive;
+}
+.artb{
+	background-image: url(../image/artb.png);
+
+	
+background-position: bottom;
+		
+background-size: cover;
+		
+background-repeat: repeat;
+		
+background-attachment: scroll;
+
+	
+animation: animatedBackground 40s linear infinite;
+
+
+ 
+ 
+ -webkit-animation: slide 20s linear infinite;
+
+}
+
+
+
+
+@-webkit-keyframes slide {
+ 
+   from { background-position: 10 10; 
+}
+   
+ to { 
+background-position: -400px 0; 
+}
+}
+
+.tem{
+	background-image: url(../image/templee.jpg);
+	
+
+	
+background-position: bottom;
+		
+background-size: cover;
+		
+background-repeat: repeat;
+		
+background-attachment: scroll;
+
+	
+animation: animatedBackground 40s linear infinite;
+
+
+ 
+ 
+ -webkit-animation: slide 20s linear infinite;
+
+}
+
+
+
+
+@-webkit-keyframes slide {
+ 
+   from { background-position: 10 10; 
+}
+   
+ to { 
+background-position: -400px 0; 
+}
+}
+.goldt{
+	background-image: url(../image/gold.jpg);
+background-position: bottom;
+		
+background-size: cover;
+		
+background-repeat: repeat;
+		
+background-attachment: scroll;
+
+	
+animation: animatedBackground 40s linear infinite;
+
+
+ 
+ 
+ -webkit-animation: slide 20s linear infinite;
+
+}
+
+
+
+
+@-webkit-keyframes slide {
+ 
+   from { background-position: 10 10; 
+}
+   
+ to { 
+background-position: -400px 0; 
+}
+}
+ .id{
+	background-image: url(../image/idols.jpg);
+background-position: bottom;
+		
+background-size: cover;
+		
+background-repeat: repeat;
+		
+background-attachment: scroll;
+
+	
+animation: animatedBackground 40s linear infinite;
+
+
+ 
+ 
+ -webkit-animation: slide 20s linear infinite;
+
+}
+
+
+
+
+@-webkit-keyframes slide {
+ 
+   from { background-position: 10 10; 
+}
+   
+ to { 
+background-position: -400px 0; 
+}
+}
+#sgallery .sgalbg{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: rgba(0,0,0,.6);
+}
+
+#sgallery .shead h1{
+	color: white;
+	font-family: var(--bitter);
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+
+}
+#sgallery .sbut{
+	background-color: var(--scol);
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 0px;
+	border: 2px solid rgba(255,255,255,.6);
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: 800;
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	
+
+}
+#sgallery .sbut:hover
+{
+
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.5);	
+}
+
+#art{
+	background-image: url(../image/shivanart.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display:none;
+}
+#art .artbg{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	 background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,.85), rgba(255,255,255,.85), rgba(255,255,255,1));
+	
+
+}
+#art .artcont{
+	color: white;
+}
+#art .artcont h1{
+	padding: 5px 10px;
+		text-transform: uppercase;
+		 background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.3), rgba(255,255,255,.1), rgba(255,255,255,.0));
+	
+	font-family: var(--bitter);
+	font-size: 20px;
+	
+	color: black;
+	border-left: 4px solid var(--scol);	
+}
+#art .uvideo{
+	width: 90%;
+	margin: auto;
+	display: block;
+	height: auto;
+}
+#art .artcont p{
+	font-family: var(--para);
+	text-align: justify;
+	color: black;
+}
+#chola4 .ch4bg{
+		padding-top: 50px;
+		padding-bottom: 50px;	
+		background-color: rgba(255,255,255,.9);
+	}
+#chola4 .idimg img{
+		width: 80%;
+		display: block;
+		margin: auto;
+
+	}
+
+	#chola4 .idol{
+		
+		margin: 20px;
+	}
+	#chola4 .idol h2{
+
+		font-family: var(--bitter);
+		border-left: 4px solid var(--scol);
+		padding: 5px 10px;
+		text-transform: uppercase;
+		font-size: 20px;
+		 background-image: linear-gradient(to right, rgba(0,0,0,.2), rgba(0,0,0,.1), rgba(255,255,255,.0));
+	
+	}
+	 #chola4 .idol p{
+		text-align: justify;
+		font-family: var(--para);
+		margin-top: 20px;
+	}
+	#chola4 .center{
+		position: absolute;
+		top:10%	;
+		transform: translate(0%,0%);
+
+
+	}
+	#chola4 {
+background-image: url('../image/whitebg.jpeg');
+	}
+	#chola4 .box{
+		position: relative;
+		width: 180px;
+		height: 180px;
+		
+		padding: 20px;
+		border: 1px solid #fff;
+	}
+	
+	#chola4 .image{
+		position: absolute;
+		width: 250px;
+		height: 300px;
+		border:2px solid #26050f;
+		background-color:  #3e0416;
+		box-shadow:1px 1px 2px 2px rgba(0,0,0,0.2);
+		z-index: 2;
+		transform-origin: left;
+		transition: 1s;
+		transform: perspective(2000px) rotateY(0deg);
+		overflow:hidden;
+		
+	}
+	#chola4 .frame1{
+		background-position: center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url('../image/artframe.png');
+		
+	}
+	#chola4 .frame4{
+		background-position: center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url('../image/templeframe.png');
+		
+	}
+	#chola4 .frame3{
+		background-position: center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url('../image/jewelframe.png');
+		
+	}
+	#chola4 .frame2{
+		background-position: center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url('../image/idol.png');
+		
+	}
+	.image img{
+		width: 50%;
+		height: 70%;
+		display: block;
+		margin: auto;
+
+	}
+	
+	#chola4 .jwby{
+		height: 350px;
+		
+	}
+	#chola4 .content{
+
+		position: absolute;
+
+		box-shadow:1px 1px 2px 2px rgba(0,0,0,0.2);	
+		width: 250px;
+		height: 300px;
+
+		border:5px inset #764218;
+		background-image: url('../image/framepara.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: cover;
+		z-index: 1;
+		transform-origin: left;
+		transition: 1s;
+		
+		overflow: hidden;
+		transform: perspective(2000px) rotateY(	0deg);
+		padding: 5px;
+		box-sizing: border-box;
+		text-align: justify;
+		overflow: hidden;
+	}
+	#chola4 .content h1{
+		color: #3e0416;
+		font-size: 16px;
+		margin-top: 10px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 6px;
+		text-transform: uppercase;
+		font-family: var(--bitter);
+		 background-image: linear-gradient(to right, rgba(255,255,255,.3), rgba(255,255,255,.1), rgba(255,255,255,.0));
+	}
+		#chola4 .btnpres i{
+	 
+	    margin-left:10px;
+	}
+	#chola4 .btnpres h2{
+	text-decoration:underline;
+	 text-decoration-thickness: 2px;
+	 line-height:15px;
+	    text-align:center;
+	    font-size:18px;
+font-family:var(--bitter);
+font-weight:800;
+text-transform:uppercase;
+color:green;
+text-shadow:1px 2px rgba(0,0,0,0.2);
+margin-right:10px;
+	}
+	#chola4 .btnpres1 h2:hover{
+	    
+	    color: #3e0416;
+	    
+	}
+
+	#chola4 .content p{
+
+		font-family: var(--cursive);
+		font-size: 17px;
+		font-weight: 600;
+		text-align: justify;
+		margin: 5px;
+		letter-spacing: 1px;
+
+	} 
+	#chola4 .box:hover .image{
+			transform: perspective(2000px) rotateY(-90deg);
+	}
+	.box:hover .content{
+			transform: perspective(2000px) rotateY(0deg);
+	}
+#info{
+		background-image: url(../image/blackdotted.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+	}
+    #info .inbg{
+    	background-color: rgba(255,255,255,.98);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#info .moreflex{
+	font-size: 13px;
+	text-align: center;
+	background-color: green;
+	color: white;
+font-family: var(--bitter);
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,.2);
+	padding: 5px 10px 5px 10px;
+}
+#info.aboflexitem:hover .moreflex{
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,.4);
+}
+#info a{
+	text-decoration: none;
+}
+#info .aboflex{
+	display: flex;
+	flex-wrap: wrap;
+		justify-content: center;
+}
+#info .abimg{
+	width: 90%;
+	display: block;
+	margin:auto;
+
+}
+
+#info .aboflexitem{
+	box-shadow:inset 1px 1px 2px 2px rgba(0,0,0,.1);
+	border-radius: 0px;
+	padding: 20px;
+	max-width: 250px;
+	  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.1),white);
+	margin: 20px;
+	border-top: 2px solid var(--prcol);
+	border-right: 1px solid rgba(0,0,0,0.1);
+
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#info .aboflexitem:hover{
+	box-shadow:inset 1px 1px 2px 2px rgba(0,0,0,.2);
+}
+#info .aboflexitem h1{
+	margin-top: 10px;
+	font-size: 16px;
+	text-align: center;
+	font-family: var(--bitter);
+	font-weight: 600;
+	color: var(--scol);
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+#info .aboflexitem p{
+	font-size: 15px;
+	font-style: var(--para);
+	font-weight: 500;
+	color: rgba(0,0,0,.6);
+	text-align: justify;
+	margin-top: 10px;
+}
+#info .abthead h1{
+	font-size: 25px;
+	color: var(--prcol);
+	font-family: var(--bitter);
+	text-shadow: 1px 2px rgba(0,0,0,0.2);
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#info .aboline{
+	width: 60px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+#info .abline{
+	width: 50px;
+	height: 2.3px;
+	background-color: var(--scol);
+	display: none;
+	
+	margin: auto;
+}
+#mainimg .mainbg{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+	#mainimg .swiper-container {
+	      width: 100%;
+	      padding-top: 50px;
+	      padding-bottom: 50px;
+	    }
+	#mainimg .swiper-slide a{
+		text-decoration: none;
+	}
+	#mainimg .swiper-slide img{
+	      padding-top: 25px;
+	      padding-bottom: 25px;
+	      width: 80%;	
+	      margin: auto;
+		      display: block;	
+		     
+
+	}
+	#mainimg .swiper-slide{
+		width: 300px;
+		overflow: hidden;
+		margin: 20px;
+		background-image: url('../image/fff.jpg');
+		background-size: cover;
+		background-attachment: scroll;
+			background-position: center;
+		border:1px solid rgba(0,0,0,0.1);
+
+	      
+	}
+	#mainimg .topbx{
+		display:none;
+	}
+
+#mainimg .mainhead h1{
+	font-family: var(--bitter);
+	font-size: 25px;
+	color: var(--prcol);
+	text-transform: uppercase;
+	text-shadow: 1px 2px rgba(0,0,0,0.2);
+	text-align: center;
+	letter-spacing: 2px;
+}
+#mainimg .mainhead p{
+	font-family: var(--para);
+	font-size: 15px;
+	text-align: center;
+}
+#mainimg .mainline{
+	width: 70px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+#lightbx .lgbg{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#lightbx .galflex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+margin: 40px 0px;
+padding-top: 20px;
+}
+
+#lightbx .galflexitem img{
+	width: 80%;
+	margin: auto;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+  transition: transform .2s;
+}
+
+#lightbx .galflexitem img:hover{
+
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
+
+
+		       -webkit-filter: drop-shadow(2px 2px 2px #222);
+	  filter: drop-shadow(1px 1px 2px rgba(0,0,0,.4));
+}
+#lightbx .galflexitem {
+  float: left;
+  width: 25%;
+
+		background-image: url('../image/fff.jpg');
+		background-size: cover;
+		background-attachment: scroll;
+			background-position: center;
+  margin: 3px;
+  
+}
+
+/* The Modal (background) */
+#lightbx .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+.mySlides h1{
+	color: white;
+	text-align: center;
+}
+/* Modal Content */
+#lightbx .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+#lightbx .mySlides img{
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+
+  margin: auto;
+
+  background-color: rgba(214, 214, 214 ,1);
+  padding: 20px;
+}
+/* The Close Button */
+#lightbx .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#lightbx .close:hover,
+#lightbx .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#lightbx .mySlides {
+  display: none;
+  background-color: rgba(0,0,0,1);
+}
+
+#lightbx .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#lightbx .prev,
+#lightbx .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#lightbx .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#lightbx .prev:hover,
+#lightbx .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+#lightbx .numbertext {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  font-family: var(--bitter);
+  top: 0;
+}
+
+#lightbx img {
+  margin-bottom: -4px;
+}
+
+#lightbx .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+#lightbx .demo {
+  opacity: 0.6;
+}
+
+#lightbx .active,
+#lightbx .demo:hover {
+  opacity: 1;
+}
+
+#lightbx img.hover-shadow {
+  transition: 0.3s;
+}
+
+
+#lightbx{
+	background-color: rgba(0,0,0,.97);
+}
+
+.lhead h1{
+	font-family: var(--bitter);
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.lhead p{
+	font-family: var(--para);
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+.lline{
+	width: 70px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+
+#footer{
+	background-color: black;
+}
+
+#footer .logof img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+#footer .abofoot{
+	color: rgba(255,255,255,.9);
+	text-align:justify;
+	font-size: 14px;
+	font-family: var(--para);
+}
+#footer .footcon{
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+}
+#footer .tagfo{
+	text-align: center;
+	color: var(--scol);
+	margin-bottom: 20px;
+	font-size: 10px;
+	margin-top: 5px;
+	font-family: var(--para);
+}
+
+#footer .fohead{
+	color: var(--scol);
+	text-transform: uppercase;
+	font-family: var(--bitter);
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#footer .fopage i{
+	color: var(--slight);
+	margin-right: 10px;
+}
+#footer .fopage a h1{
+	color: rgba(255,255,255,.7);
+	font-size: 16px;
+	font-family: var(--para);
+	text-transform: capitalize;
+	margin-top: 10px;
+
+}
+ #footer .fopage a:hover{
+ 	text-decoration: none;
+ 	
+ }
+
+#footer .fopage a:hover h1{
+	color: var(--scol);
+}
+#footer .fodiv{
+	height: 2px;
+	width: 30px;
+	margin-bottom: 20px;	
+	background-color: var(--scol);
+}
+#footer .fosub h1{
+	color: var(--scol);
+		text-align: left;
+	text-transform: capitalize;
+font-size: 20px;	
+font-family: var(--bitter);
+}
+#footer .fosub input{
+border-radius: 3px;
+border:0px solid black;
+padding-left: 10px;
+}
+#footer .fosub button{
+	color: white;
+
+	border: 0px solid red;
+	background-color: var(--scol);
+	font-family: var(--para);
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+#footer .fosub:hover button{
+background-color: var(--slight);
+color: black;
+}
+#footer .contactfo{
+	margin-top: 20px;
+}
+#footer .contactfo i{
+color: var(--scol);
+margin-right: 10px;
+}
+#footer .contactfo  a{
+	color: white;
+	font-family: var(--para);
+
+	font-size: 14px;
+}
+#footer .contactfo  a:hover{
+	color: var(--scol);
+	text-decoration: none;
+}
+#footer .contactfo li{
+	list-style-type: none;
+
+}
+#footer .linefo{
+background-color: white;
+display: block;
+margin: auto;
+height: 1px;
+width: 95%;
+margin-top: 20px;	
+}
+
+#footer .footbar{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;	
+	padding-bottom: 10px;
+	color: white;
+	font-family: var(--para);
+}
+

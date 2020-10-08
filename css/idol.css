@@ -1,0 +1,655 @@
+	:root{
+	    --pcol:rgba( 239, 217, 0,1);
+	    --scol:rgba(  235, 72, 1,1);
+	    --slight:rgba( 249, 105, 42,1);
+	  --plight:rgba( 234, 218, 50,1);
+	   --prcol:rgba(15,16, 35, 1);
+	  --srcol:rgba(18, 19, 78, 1);   
+	--cursive: 'Dancing Script', cursive;
+    --bitter: 'Bitter', serif;
+--prcol:rgba(15,16, 35, 1);
+	  --srcol:rgba(18, 19, 78, 1);
+	    --para: 'Chilanka', cursive;
+	}
+#sgallery{
+	background-image: url(../image/idols.jpg);
+	
+	
+background-position: bottom;
+		
+background-size: cover;
+		
+background-repeat: repeat;
+		
+background-attachment: scroll;
+
+	
+animation: animatedBackground 40s linear infinite;
+
+
+ 
+ 
+ -webkit-animation: slide 20s linear infinite;
+
+}
+
+
+
+
+@-webkit-keyframes slide {
+ 
+   from { background-position: 10 10; 
+}
+   
+ to { 
+background-position: -400px 0; 
+}
+}
+
+#sgallery .sgalbg{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: rgba(0,0,0,.7);
+}
+
+#sgallery .shead h1{
+	color: white;
+	font-family: var(--bitter);
+	font-size: 30px;
+	
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+#sgallery .sbut{
+	background-color: var(--scol);
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 0px;
+	border: 2px solid rgba(255,255,255,.6);
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: 800;
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	
+
+}
+#sgallery .sbut:hover
+{
+
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.5);	
+}
+
+.fixwhatsapp{
+	
+	border-bottom-right-radius : 5px;
+	border-top-right-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 0px;
+	width: 20%;
+	padding: 5px;
+	overflow: hidden;
+}
+.fixwhatsapp img{
+	width: 20%;
+}
+.idolline{
+	width: 70px;
+	height: 3px;
+	background-color: var(--scol);
+	margin-bottom: 10px;
+}
+#gallery .ghead h2{
+	font-family: var(--bitter);
+	font-size: 25px;
+	color: var(--srcol);
+	letter-spacing: 1px;
+	text-shadow: 1px 2px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	font-family: 600;
+}
+#gallery .ghead p{
+	font-family: var(--para);
+	font-size: 17px;
+	text-align: justify;
+	padding: 10px;
+}
+#gallery .gimg img{
+	max-width: 80%;
+	background-image: url('../image/bgreen.jpg');
+background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border:4px solid white;
+	box-shadow:1px 1px 2px 2px rgba(0,0,0,0.1);
+
+}
+#gallery .gbg{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#art{
+	background-image: url(../image/shivanart.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#art .artbg{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	 background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,.85), rgba(255,255,255,.85), rgba(255,255,255,1));
+	
+
+}
+#art .artcont{
+	color: white;
+}
+#art .artcont h1{
+	padding: 5px 10px;
+		text-transform: uppercase;
+		 background-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.3), rgba(255,255,255,.1), rgba(255,255,255,.0));
+	
+	font-family: var(--bitter);
+	font-size: 20px;
+	
+	color: black;
+	border-left: 4px solid var(--scol);	
+}
+#art .uvideo{
+	width: 90%;
+	margin: auto;
+	display: block;
+	height: auto;
+}
+#art .artcont p{
+	font-family: var(--para);
+	text-align: justify;
+	color: black;
+}
+#chola4 .ch4bg{
+		padding-top: 50px;
+		padding-bottom: 50px;	
+		background-color: rgba(255,255,255,.9);
+	}
+#chola4 .idimg img{
+		width: 80%;
+		display: block;
+		margin: auto;
+
+	}
+
+	#chola4 .idol{
+		
+		margin: 20px;
+	}
+	#chola4 .idol h2{
+
+		font-family: var(--bitter);
+		border-left: 4px solid var(--scol);
+		padding: 5px 10px;
+		text-transform: uppercase;
+		font-size: 20px;
+		 background-image: linear-gradient(to right, rgba(0,0,0,.2), rgba(0,0,0,.1), rgba(255,255,255,.0));
+	
+	}
+	 #chola4 .idol p{
+		text-align: justify;
+		font-family: var(--para);
+		margin-top: 20px;
+	}
+	#chola4 .center{
+		position: absolute;
+		top:10%	;
+		transform: translate(0%,0%);
+
+
+	}
+	#chola4 {
+background-image: url('../image/whitebg.jpeg');
+	}
+	#chola4 .box{
+		position: relative;
+		width: 180px;
+		height: 180px;
+		
+		padding: 20px;
+		border: 1px solid #fff;
+	}
+	
+	#chola4 .image{
+		position: absolute;
+		width: 250px;
+		height: 300px;
+		border:2px solid #26050f;
+		background-color:  #3e0416;
+		box-shadow:1px 1px 2px 2px rgba(0,0,0,0.2);
+		z-index: 2;
+		transform-origin: left;
+		transition: 1s;
+		transform: perspective(2000px) rotateY(0deg);
+		overflow:hidden;
+		
+	}
+	#chola4 .frame2{
+		background-position: center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url('../image/idol.png');
+		
+	}
+	.image img{
+		width: 50%;
+		height: 70%;
+		display: block;
+		margin: auto;
+
+	}
+	
+	#chola4 .jwby{
+		height: 350px;
+		
+	}
+	#chola4 .content{
+
+		position: absolute;
+
+		box-shadow:1px 1px 2px 2px rgba(0,0,0,0.2);	
+		width: 250px;
+		height: 300px;
+
+		border:5px inset #764218;
+		background-image: url('../image/framepara.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: cover;
+		z-index: 1;
+		transform-origin: left;
+		transition: 1s;
+		
+		overflow: hidden;
+		transform: perspective(2000px) rotateY(	0deg);
+		padding: 5px;
+		box-sizing: border-box;
+		text-align: justify;
+		overflow: hidden;
+	}
+	#chola4 .content h1{
+		color: #3e0416;
+		font-size: 16px;
+		margin-top: 10px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 6px;
+		text-transform: uppercase;
+		font-family: var(--bitter);
+		 background-image: linear-gradient(to right, rgba(255,255,255,.3), rgba(255,255,255,.1), rgba(255,255,255,.0));
+	}
+	
+	#chola4 .content p{
+
+		font-family: var(--cursive);
+		font-size: 17px;
+		font-weight: 600;
+		text-align: justify;
+		margin: 5px;
+		letter-spacing: 1px;
+
+	} 
+	#chola4 .box:hover .image{
+			transform: perspective(2000px) rotateY(-90deg);
+	}
+	.box:hover .content{
+			transform: perspective(2000px) rotateY(0deg);
+	}
+#info{
+		background-image: url(../image/blackdotted.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+	}
+    #info .inbg{
+    	background-color: rgba(255,255,255,.95);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#info .moreflex{
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,.4);
+	padding: 5px 10px 5px 10px;
+}
+#info a{
+	text-decoration: none;
+}
+#info .aboflex{
+	display: flex;
+	flex-wrap: wrap;
+		justify-content: center;
+		
+}
+#info .abimg{
+	width: 100%;
+	display: block;
+	margin:auto;
+	border-radius:0px!important;
+}
+#info .aboflexitem{
+	box-shadow: inset 1px 1px 4px 4px rgba(0,0,0,.2);
+	border-radius: 0px;
+	padding: 20px;
+	width: 250px;
+	margin: 20px;
+
+}
+#info .aboflexitem:hover{
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,.5);
+}
+#info .aboflexitem h1{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	font-family: var(--headfont);
+	font-weight: 600;
+	color: var(--pcol);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#info .aboflexitem p{
+	font-size: 15px;
+	font-style: var(--para);
+	font-weight: 500;
+	color: rgba(0,0,0,.6);
+	text-align: justify;
+	margin-top: 10px;
+}
+#info .abthead h1{
+	font-size: 25px;
+	font-family: var(--headfont);
+	text-align: center;
+	font-weight: 600;
+}
+#info .aboline{
+	width: 60px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+#info .abline{
+	width: 50px;
+	height: 2.3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+
+#mainimg .mainbg{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+	#mainimg .swiper-container {
+	      width: 100%;
+	      padding-top: 50px;
+	      padding-bottom: 50px;
+	    }
+	#mainimg .swiper-slide a{
+		text-decoration: none;
+	}
+	#mainimg .swiper-slide img{
+	      padding-top: 25px;
+	      padding-bottom: 25px;
+	      width: 80%;	
+	      margin: auto;
+		      display: block;	
+		       -webkit-filter: drop-shadow(5px 5px 5px #222);
+	  filter: drop-shadow(1px 1px 2px rgba(0,0,0,.4));
+
+	}
+	#mainimg .swiper-slide{
+		width: 250px;
+		overflow: hidden;
+		margin: 20px;
+		background-image: url('../image/fff.jpg');
+		background-size: cover;
+		background-attachment: scroll;
+			background-position: center;
+		border:1px solid rgba(0,0,0,0.1);
+
+box-shadow:inset 1px 1px 2px 2px rgba(0,0,0,0.1);
+	      
+	}
+	#mainimg .swiper-slide:hover{
+box-shadow:inset 1px 1px 2px 2px rgba(0,0,0,0.2);
+	}
+	#mainimg .topbx{
+		display:none;
+	}
+
+#mainimg .mainhead h1{
+	font-family: var(--bitter);
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 2px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#mainimg .mainhead p{
+	font-family: var(--para);
+	font-size: 15px;
+	text-align: center;
+}
+#mainimg .mainline{
+	width: 70px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}
+#lightbx .lgbg{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#lightbx .galflex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+margin: auto;
+}
+
+#lightbx .galflexitem img{
+	width: 80%;
+	margin: auto;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+  transition: transform .2s;
+}
+
+#lightbx .galflexitem img:hover{
+
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
+
+
+		       -webkit-filter: drop-shadow(5px 5px 5px #222);
+	  filter: drop-shadow(1px 1px 1px var(--prcol));
+}
+#lightbx .galflexitem {
+  float: left;
+  max-width: 300px;
+  margin: 10px;
+		background-image: url('../image/fff.jpg');
+		background-size: cover;
+		background-attachment: scroll;
+			background-position: center;
+	  margin: 3px;
+}
+
+/* The Modal (background) */
+#lightbx .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+#lightbx .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+#lightbx .mySlides img{
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+
+  margin: auto;
+
+  background-color: rgba(214, 214, 214 ,1);
+  padding: 20px;
+}
+#lightbx .mySlides h1{
+	color: white;
+	text-align: center;
+	font-family: var(--bitter);
+	font-size: 20px;
+	text-transform:uppercase;
+	margin-top: 10px;
+}
+/* The Close Button */
+#lightbx .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#lightbx .close:hover,
+#lightbx .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#lightbx .mySlides {
+  display: none;
+  background-color: rgba(0,0,0,1);
+}
+
+#lightbx .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#lightbx .prev,
+#lightbx .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#lightbx .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#lightbx .prev:hover,
+#lightbx .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+#lightbx .numbertext {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  font-family: var(--bitter);
+  top: 0;
+}
+
+#lightbx img {
+  margin-bottom: -4px;
+}
+
+#lightbx .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+#lightbx .demo {
+  opacity: 0.6;
+}
+
+#lightbx .active,
+#lightbx .demo:hover {
+  opacity: 1;
+}
+
+#lightbx img.hover-shadow {
+  transition: 0.3s;
+}
+
+
+#lightbx{
+	background-color: rgba(0,0,0,.97);
+}
+.lhead h1{
+	font-family: var(--bitter);
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.lhead p{
+	font-family: var(--para);
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+.lline{
+	width: 70px;
+	height: 3px;
+	background-color: var(--scol);
+	display: block;
+	margin: auto;
+}

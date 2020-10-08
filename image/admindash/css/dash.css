@@ -1,0 +1,144 @@
+
+:root {
+	--scol:rgba(255,143,0);
+ --pcol:rgba( 21, 74, 227 ,1);
+ --pcol-transparent:rgba(100, 6, 51  ,.7);
+ 	--bitter: 'Bitter', serif;
+	--para:'Arvo', serif;
+}
+
+#page-top{
+	height: 200px;
+
+}
+.leftside{
+	background-color: black;
+}
+.sidebar-brand{
+	overflow: hidden;
+}
+
+.sidebar-brand-icon img{
+	height: 25px;
+
+}
+.sidebar-brand{
+	background-color: white;
+}
+.sidebar-brand-text{
+	color: var(--pcol);
+	font-family: var(--bitter);
+
+	font-size: 15px;
+}
+.active{
+	background-color: var(--pcol);
+}
+.headdiv{
+	height: 1px;
+	width:100%;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+	background-color: rgba(0,0,0,0.2);
+}
+#usrpro{
+
+	overflow: hidden;
+	border-top: 2px solid rgba(0,0,0,0.1);	
+}
+#usrpro .texthead{
+	color: var(--pcol);
+	font-size: 20px;
+	font-family: var(--bitter);
+
+}
+
+
+/* profile fluid starts*/
+#usrpro .userhead{
+	background-color: rgba( 46, 131, 232 ,1);
+	color: white;
+}
+#usrpro .headan{
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0px 10px 0px;	
+}
+#usrpro .itempro{
+	width: 300px;
+	border:1px solid rgba( 46, 131, 232 ,1);
+	margin: 20px;	
+}
+#usrpro .flex-pro{
+	display: flex;
+	margin: 20px 0px 20px 0px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#usrpro .footprotable{
+	width: 100%;
+	
+}
+#usrpro .footprotableleft{
+	float: left;
+	color: black;
+	text-transform: capitalize;
+	font-size: 14px;
+
+}
+#usrpro .footprotableright{
+	float: right;
+	color: rgba(0,0,0,0.7);
+	text-transform: capitalize;
+	font-size: 14px;
+}
+#usrpro .footro{
+	padding: 10px;
+}
+#usrpro .announcehead{
+	background-color: rgba( 51, 185, 64 ,1);
+	color: white;
+}
+/*start dashflex2*/
+.dashimg img{
+	width: 80%;
+	margin: auto;
+	display:block;
+}
+.inlinedash{	
+	display:inline-block; 
+	
+
+}
+.dashimg{
+	height: 100px;
+	width: 100px;
+}
+.dash2f{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.dash2item{
+	padding: 5px;
+		
+	margin: 2px;
+		border:1px solid rgba(0,0,0,0.5);
+
+}
+#dashflex2{
+	margin-top: 20px;
+}
+.inlinedashh1{
+	color: rgba(0,0,0,0.6);
+	line-height: 25px;
+	font-size: 35px;
+
+}
+.inlinedashh2{
+	color: rgba(0,0,0,0.5);
+	line-height: 10px;	
+	font-size: 20px;
+}
